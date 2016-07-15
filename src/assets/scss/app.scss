@@ -1,0 +1,41 @@
+@import 'foundation';
+@import 'settings';
+@import 'buttons';
+
+
+  .ihr-header {
+    background: $ihr-main-light-blue;
+    color: $ihr-main-white;
+  }
+
+  .ihr-header-logo {
+    background: $ihr-main-light-blue;
+  }
+
+  .white-text {
+    color: $ihr-main-white;
+
+    @media all {
+      > a {
+        &:visited {
+          color: $ihr-main-white;
+        }
+
+        &:hover {
+          color: $ihr-main-white;
+        }
+
+        &:focused {
+          color: $ihr-main-white;
+        }
+      }
+    }
+  }
+
+  .gray-text {
+    color: $ihr-main-dark-gray;
+  }
+
+  .heart-icon {
+    color: red;
+  }
