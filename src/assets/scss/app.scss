@@ -3,39 +3,48 @@
 @import 'buttons';
 
 
-  .ihr-header {
-    background: $ihr-main-light-blue;
-    color: $ihr-main-white;
-  }
+table.body {
+  background: $background-gray;
+}
 
-  .ihr-header-logo {
-    background: $ihr-main-light-blue;
-  }
+.main-content-container {
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+}
 
-  .white-text {
-    color: $ihr-main-white;
+.ihr-header {
+  background: $background-gray;
+  color: $ihr-main-white;
+}
 
-    @media all {
-      > a {
-        &:visited {
-          color: $ihr-main-white;
-        }
+.ihr-header-logo {
+  background: $background-gray;
+}
 
-        &:hover {
-          color: $ihr-main-white;
-        }
+.white-text {
+  color: $text-color;
 
-        &:focused {
-          color: $ihr-main-white;
-        }
+  @media all {
+    > a {
+      &:visited {
+        color: $text-color;
+      }
+
+      &:hover {
+        color: $text-color;
+      }
+
+      &:focused {
+        color: $text-color;
       }
     }
   }
+}
 
-  .gray-text {
-    color: $ihr-main-dark-gray;
-  }
+.gray-text {
+  color: $ihr-main-dark-gray;
+}
 
-  .heart-icon {
-    color: red;
-  }
+.heart-icon {
+  color: red;
+}
